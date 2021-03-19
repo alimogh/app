@@ -2,6 +2,8 @@ package com.onrpiv.uploadmedia.Learn;
 
 import android.os.Build;
 import androidx.annotation.RequiresApi;
+import androidx.core.widget.NestedScrollView;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import android.os.Bundle;
 import android.text.Html;
@@ -16,6 +18,7 @@ public class Laser2 extends LaserSafetyLayout {
 
     private int headerTextSize = 25;
     private int paraTextSize = 16;
+    private NestedScrollView scrollView;
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
@@ -52,6 +55,9 @@ public class Laser2 extends LaserSafetyLayout {
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
+
+        scrollView = findViewById(R.id.nestedScroll1);
+        scrollView.scrollTo(0, 0);
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
