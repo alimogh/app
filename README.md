@@ -37,9 +37,9 @@ TODO sign our app?
 
 A video walk-through is available to download [here](https://github.com/mI-PIV/app/raw/readme/resources/installGithubAPK.mp4).
 
-The easiest method of installing the APK package is to use the installation target-phone's browser:
+The easiest method of installing the APK package is to use the browser of the phone you wish to install the APK:
 
-- Go to github.com/mI-PIV/app/releases
+- Go to [github.com/mI-PIV/app/releases](https://github.com/mI-PIV/app/releases)
 - Click the Assets drop-down menu from the top (most recent) release
 - Click on the file that ends with *{filename}*.apk (example *mIPIV_0.03.apk*)
 - "Do you want to keep *{filename}*.apk anyway?" Select OK
@@ -68,7 +68,7 @@ If the triangle is found, then mI-PIV can calculate the particle velocities in c
 You can run PIV with frames that don't have the calibration triangle, but the particle velocities will be in pixels per second.
 
 To add the calibration triangle to your PIV experiments:
-1. Print out the [calibration triangle](/resources/triangleCalibration.png) found on a 8 x 11 inch paper.
+1. Print out the [calibration triangle](/resources/triangleCalibration.png) on a 8 x 11 inch paper.
 2. Cut out the triangle from the paper, leaving some whitespace around the edges.
 3. (Optional) Laminate the triangle if you want to place inside the liquid.
 4. Position the triangle in your experiments so that the full triangle will appear anywhere in the top right quadrant of your videos.
